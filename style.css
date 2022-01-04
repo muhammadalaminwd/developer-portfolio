@@ -6,6 +6,10 @@ h1{
     font-size: 50px;
     color: #1D7D81;
 }
+h2{
+    font-size: 40px;
+    color: #1D7D81;
+}
 .orange-color{
     color: #03497E;
 }
@@ -18,11 +22,11 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 .link-button{
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-image: linear-gradient(#03497E,#1D7D81);
     border-radius: 10px;
     color: white;
@@ -37,37 +41,33 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
-.blue-color{
-    color: #03497E;
-}
 .experience-area{
     background-image: url(images/bottom-banner-01.png);
     background-repeat: no-repeat;
-    background-position: ;
-
+    background-position: left;
 }
 .experience-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 10px;
+    padding-left: 20px;
     box-shadow: 10px 10px 30px gray;
     border-radius: 20px;
 }
-h2{
-    font-size: 40px;
-    color: #1D7D81;
-}
 #web-dev{
-    border-left: 7px solid ;
+    border-left: 7px solid;
     border-image: linear-gradient(#03497E, #1D7D81);
-    border-image-slice: 2;
+    border-image-slice: 1;
 }
 #web-devf{
     border-left: 7px solid ;
     border-image: linear-gradient(#1D7D81,#03497E);
-    border-image-slice: 2;
+    border-image-slice: 1;
 }
+.blue-color{
+    color: #03497E;
+}
+
 footer p{
     text-align: center;
     color: gray;
