@@ -13,10 +13,6 @@ h1{
     display: flex;
     margin-bottom: 150px;
 }
-.flexible-container {
-    display:flex ;
-    margin-bottom: 100px;
-}
 .half-width{
     width: 50%;
     padding-left: 2%;
@@ -43,4 +39,36 @@ h1{
 }
 .blue-color{
     color: #03497E;
+}
+.experience-area{
+    background-image: url(images/bottom-banner-01.png);
+    background-repeat: no-repeat;
+    background-position: ;
+
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+}
+h2{
+    font-size: 40px;
+    color: #1D7D81;
+}
+#web-dev{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#03497E, #1D7D81);
+    border-image-slice: 2;
+}
+#web-devf{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#1D7D81,#03497E);
+    border-image-slice: 2;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
