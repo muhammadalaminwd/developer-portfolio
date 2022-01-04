@@ -9,6 +9,10 @@ h1{
 .orange-color{
     color: #03497E;
 }
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
 .flexible-container {
     display:flex ;
     margin-bottom: 100px;
@@ -36,4 +40,7 @@ h1{
     background-image: url(images/middle-banner-01.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.blue-color{
+    color: #03497E;
 }
