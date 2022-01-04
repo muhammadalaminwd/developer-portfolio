@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    color: #1D7D81;
+}
+.orange-color{
+    color: #03497E;
+}
+section {
+    display:flex ;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(#03497E,#1D7D81);
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.top-banner{
+    background-image: url(images/top-banner-01-01.png);
+    background-repeat: no-repeat;
+}
